@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  be:
+    build:
+      context: .
+    command: [ "sh", "/code/start.sh" ]
+    volumes:
+      - .:/code
+    ports:
+      - 8000:8000
