@@ -1,6 +1,6 @@
 # accuknox-assessment
 
-Use this command to build and run the app via Docker:
+Use this command in the root directory (where docker-compose.yml is) to build and run the app via Docker:
 
 ```
 docker compose up -d
